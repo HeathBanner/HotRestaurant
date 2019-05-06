@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Make a Reservation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center"><strong>Hot Restaurant</strong></h1>
+            <hr>
+            <h2 class="text-center">Make your reservation</h2><br>
+            <div class="text-center">
+                <a href="/tables"><button class="btn btn-lg btn-info">View Tables</button></a> <a href="/"><button class="btn btn-lg btn-light">Home</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 tableTop rounded-top">
+                Table Reservation
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 tableBottom rounded-bottom">
+                <form>
+                    <div class="form-group">
+                        <br>
+                        <label for="formGroupExampleInput">Name</label> <input class="form-control" id="name" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Phone Number</label> <input class="form-control" id="phoneNumber" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label> <input class="form-control" id="email" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Unique ID</label> <input class="form-control" id="uniqueId" type="text">
+                    </div><button class="btn btn-info" id="#submit">Submit</button>
+                </form><br>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal-box" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

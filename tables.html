@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Make a Reservation</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><strong>Hot Restaurant</strong></h1>
+      <hr>
+      <h2 class="text-center">Current Reservations and Waiting list</h2><br>
+      <div class="text-center">
+        <a href="/reservations"><button class="btn btn-lg btn-danger">Make Reservation</button></a> <a href="/"><button class="btn btn-lg btn-light">Home</button></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tableTop rounded-top">
+        Current Reservations
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tableBottom rounded-bottom">
+        <div class="row clist rounded">
+          <div class="col-md-12">
+            <h2><span class="labeln rounded">1</span>| OG</h2>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    <div class="row">
+      <div class="col-md-12 tableTop rounded-top">
+        Waiting List
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 tableBottom rounded-bottom" id="waiting"></div>
+    </div>
+  </div>
+</body>
+</html>
