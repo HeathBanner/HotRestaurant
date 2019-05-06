@@ -1,0 +1,44 @@
+.jHead{
+    font-size: 100px;
+}
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tableTop {
+    background: #dadada;
+    color: #444;
+    border: 2px #dadada solid;
+    padding: 5px;
+}
+.tableBottom {
+    border: 2px #dadada solid;
+    padding: 10px;
+}
+.clist {
+    padding: 15px;
+    background: #dadada;
+    margin: 10px;
+}
+.labeln {
+    color: white;
+    background: lightskyblue;
+    padding: .2em .6em .3em;
+    margin: 5px;
+}
+.jumbotron {
+    background: #dadada !important;
+    color: #444;
+}
+.container {
+    padding: 0px !important;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Arimo', sans-serif;
+}
+.bot {
+    margin-bottom: 10px;
+}

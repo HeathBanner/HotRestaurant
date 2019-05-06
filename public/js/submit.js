@@ -1,10 +1,11 @@
-
+console.log('FIRE')
 
 function cleanForm() {
     $('#form').find(":text").not(":button", ":submit", ":radio").val("");
 };
 
 $("#form").on('submit', function(event) {
+    console.log('YES')
     event.preventDefault();
     var newReserve = {
         name: $("#name").val(),
@@ -23,6 +24,6 @@ $("#form").on('submit', function(event) {
     });
 });
 
-$("#close").on("click", function() {
-    $(".modal-box").hide();
+$(".close").on("click", function() {
+    $("#modal-box").hide();
 });
