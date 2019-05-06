@@ -6,9 +6,6 @@ var path = require('path');
 var routes = require('./htmlRoutes');
 var api = require('./apiRoutes');
 
-var routes = require('./htmlRoutes');
-var api = require('./apiRoutes');
-
 var PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({extended: true}));

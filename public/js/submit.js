@@ -24,6 +24,6 @@ $("#form").on('submit', function(event) {
     });
 });
 
-$(".close").on("click", function() {
+$(".close-js").on("click", function() {
     $("#modal-box").hide();
 });
