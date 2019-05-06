@@ -4,23 +4,29 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <title>Make a Reservation</title>
+  <title>Tables page</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1 class="text-center"><strong>Hot Restaurant</strong></h1>
+        <h1 class="text-center jHead"><strong>
+            <i class="fas fa-fire"></i>
+            Hot Restaurant</strong></h1>
       <hr>
       <h2 class="text-center">Current Reservations and Waiting list</h2><br>
       <div class="text-center">
-        <a href="/reservations"><button class="btn btn-lg btn-danger">Make Reservation</button></a> <a href="/"><button class="btn btn-lg btn-light">Home</button></a>
+          <a href="/reservations"><button class="btn btn-lg btn-danger text-center"><i class="far fa-credit-card"></i> Make Reservations</button></a>
+          <a href="/"><button class="btn btn-lg btn-light"><i class="fas fa-home"></i></button></a>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 tableTop rounded-top">
-        Current Reservations
+        <strong>Current Reservations</strong>
       </div>
     </div>
     <div class="row">
@@ -34,7 +40,7 @@
     </div><br>
     <div class="row">
       <div class="col-md-12 tableTop rounded-top">
-        Waiting List
+        <strong>Waiting List</strong>
       </div>
     </div>
     <div class="row">

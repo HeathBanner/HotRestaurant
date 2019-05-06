@@ -7,19 +7,24 @@
     <title>Hot Restaurant!</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="text-center"><strong>Hot Restaurant</strong></h1>
+            <h1 class="text-center jHead"><strong>
+                <i class="fas fa-fire"></i>
+                Hot Restaurant</strong></h1>
             <hr>
             <h2 class="text-center">We only have 5 tables! Book your seat before they are all gone!</h2><br>
             <div class="text-center">
-                <a href="/tables"><button class="btn btn-lg btn-info text-center">View Tables</button></a> <a href="/reservations"><button class="btn btn-lg btn-danger text-center">Make Reservations</button></a>
+                <a href="/tables"><button class="btn btn-lg btn-info text-center"><i class="far fa-list-alt"></i> View Tables</button></a>
+                <a href="/reservations"><button class="btn btn-lg btn-danger text-center"><i class="far fa-credit-card"></i> Make Reservations</button></a>
             </div>
         </div>
         <footer>
-            <a href="#">API Table Link</a> | <a href="#">API Wait List</a>
+            <a href="/api/tables">API Table Link</a> | <a href="/api/reservations">API Wait List</a>
         </footer>
     </div>
 </body>
