@@ -23,10 +23,11 @@ routes.reservations(app);
 
 api.getTables(app, tables);
 api.getReservations(app, reservations);
-api.postReservation(app);
+api.postReservation(app, reservations, tables);
 
 app.use(express.static(__dirname + "/public"));
 
 app.listen(PORT, function() {
     console.log("App is listening on PORT " + PORT);
 });
+
